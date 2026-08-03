@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kirollos Magdy — Front End Developer</title>
+<meta name="description" content="Portfolio of Kirollos Magdy Salib — Front-End Developer specializing in Angular.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-bracket">[</span>Kirollos Magdy<span class="logo-bracket">]</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#about" class="nav-link"><span class="nav-index">01</span>About</a>
+      <a href="#skills" class="nav-link"><span class="nav-index">02</span>Skills</a>
+      <a href="#projects" class="nav-link"><span class="nav-index">03</span>Projects</a>
+      <a href="#contact" class="nav-link"><span class="nav-index">04</span>Contact</a>
+    </nav>
+
+    <div class="header-controls">
+      <button class="mode-toggle" id="mode-toggle" aria-label="Toggle blueprint / print mode" aria-pressed="false">
+        <i class="fa-solid fa-compass-drafting"></i>
+        <span id="mode-label">Print mode</span>
+      </button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO / TITLE BLOCK ============ -->
+  <section class="hero" id="hero">
+    <div class="grid-overlay" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="dim-tick">├</span>DEVELOPER PROFILE</p>
+      <h1 class="hero-title">
+        I design and build<br>
+        <span class="hero-title-accent">Front End systems</span><br>
+        that hold their shape.
+      </h1>
+      <p class="hero-sub">
+        Front end drawn in <strong>Angular (v2–20)</strong>and modern web tooling 
+        — HTML5, CSS3, TypeScript, and RESTful API integration, focused on clean, performance-optimized UI.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-diagram-project"></i> View the drawings
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <i class="fa-regular fa-paper-plane"></i> Start a project
+        </a>
+         <a href="Kirollos Magdy Salib - CV.pdf" target="_blank" class="btn btn-ghost" download>
+    <i class="fa-solid fa-file-arrow-down"></i> Download CV
+  </a>
+      </div>
+    </div>
+
+ 
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <span class="section-index">01</span>
+      <h2>About</h2>
+      <span class="section-rule" aria-hidden="true"></span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-figure" aria-hidden="true">
+        
+         <img src="498152224_3037882319717164_6099593977752436647_n.jpg" alt="Kirollos Magdy Salib" >
+      </div>
+
+      <div class="about-copy">
+        <p>
+          I'm a junior front-end developer specializing in Angular (v2–20) and
+    modern web technologies. I build responsive, user-friendly interfaces
+    with HTML5, CSS3, and TypeScript — styled with Sass, Bootstrap,
+    TailwindCSS, and Angular Material, and wired up to real data through
+    RESTful APIs.
+        </p>
+        <p>
+          I care about clean, maintainable code and performance-optimized UI more
+    than clever tricks. Most of my recent work has come out of Route
+    Academy's Front-End Angular track and a summer internship at ITI, where
+    I trained on Angular, TypeScript, and modern UI practices — and I keep
+    sharpening those skills through hands-on, AI-powered side projects.
+        </p>
+        <ul class="about-facts">
+          <li><i class="fa-solid fa-location-dot"></i> Cairo, Egypt</li>
+          <li><i class="fa-solid fa-graduation-cap"></i> Benha University — Computer Science & AI (GPA 3.78/4.0)</li>
+          <li><i class="fa-solid fa-mug-hot"></i> Currently: ASP.NET back-end diploma at Route Academy</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2>Skills</h2>
+      <span class="section-rule" aria-hidden="true"></span>
+    </div>
+    <p class="section-lede">Legend — the symbols I build with most often.</p>
+
+    <div class="legend-grid">
+
+      <div class="legend-group">
+        <h3><i class="fa-solid fa-display"></i> Front end</h3>
+        <ul class="legend-list">
+          <li><span class="legend-sym"></span>Angular</li>
+          <li><span class="legend-sym"></span>NgRx / Signals</li>
+          <li><span class="legend-sym"></span>Bootstrap/TailwindCSS</li>
+          <li><span class="legend-sym"></span>PrimeNG</li>
+          <li><span class="legend-sym"></span>TypeScript</li>
+          <li><span class="legend-sym"></span>RxJS</li>
+          <li><span class="legend-sym"></span>Responsive / Flexbox &amp; Grid</li>
+        </ul>
+      </div>
+
+      <div class="legend-group">
+        <h3><i class="fa-solid fa-server"></i> Back end</h3>
+        <ul class="legend-list">
+          <li><span class="legend-sym"></span>ASP.NET Core</li>
+          <li><span class="legend-sym"></span>C#</li>
+          <li><span class="legend-sym"></span>Entity Framework</li>
+          <li><span class="legend-sym"></span>REST API design</li>
+          <li><span class="legend-sym"></span>SQL Server</li>
+        </ul>
+      </div>
+
+      <div class="legend-group">
+        <h3><i class="fa-solid fa-toolbox"></i> Tooling</h3>
+        <ul class="legend-list">
+          <li><span class="legend-sym"></span>Git &amp; GitHub</li>
+          <li><span class="legend-sym"></span>Postman</li>
+          <li><span class="legend-sym"></span>VS Code / Visual Studio</li>
+          <li><span class="legend-sym"></span>Figma (handoff)</li>
+          <li><span class="legend-sym"></span>Google Colap</li>
+
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2>Projects</h2>
+      <span class="section-rule" aria-hidden="true"></span>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="card-corner card-corner--tl" aria-hidden="true"></div>
+        <div class="card-corner card-corner--br" aria-hidden="true"></div>
+        <p class="fig-label">FIG. 01</p>
+        <h3>Recipe Finder</h3>
+        <p class="project-desc">
+           web application is designed for cooking enthusiasts, especially beginners, to easily discover and save delicious recipes. Using a free API, we fetch and display various recipes with detailed information.
+.
+        </p>
+        <ul class="tag-list">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/KirollosMagdySalib/ITI-Project-" class="proj-link"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://kirollosmagdysalib.github.io/ITI-Project-/" target="_blank" class="proj-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="card-corner card-corner--tl" aria-hidden="true"></div>
+        <div class="card-corner card-corner--br" aria-hidden="true"></div>
+        <p class="fig-label">FIG. 02</p>
+        <h3>Smart Login System</h3>
+        <p class="project-desc">
+          A login and sign-up flow built with pure JavaScript — real-time form
+  validation, password strength checks, and duplicate-email handling, with
+  role-based access control separating Admin and User views.
+        </p>
+        <ul class="tag-list">
+          <li>Pure JS</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://smart-login-6bik.vercel.app/index.html" target="_blank" class="proj-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="card-corner card-corner--tl" aria-hidden="true"></div>
+        <div class="card-corner card-corner--br" aria-hidden="true"></div>
+        <p class="fig-label">FIG. 03</p>
+        <h3>This Portfolio</h3>
+        <p class="project-desc">
+          The site you're looking at — a fully responsive, hand-built
+          landing page using semantic HTML, Flexbox/Grid layout, and
+          vanilla JavaScript for the mode toggle and mobile nav.
+        </p>
+        <ul class="tag-list">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+        </ul>
+        <div class="project-links">
+          <a href="#" class="proj-link"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="#" class="proj-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+        </div>
+      </article>
+
+       <article class="project-card">
+        <div class="card-corner card-corner--tl" aria-hidden="true"></div>
+        <div class="card-corner card-corner--br" aria-hidden="true"></div>
+        <p class="fig-label">FIG. 03</p>
+        <h3>CRUD System</h3>
+        <p class="project-desc">
+          A full CRUD System that Makes its operations of Creating , Updating , Deleting Electronic Products
+        </p>
+        <ul class="tag-list">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://crud-system-pqft.vercel.app/" target="_blank" class="proj-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="section-head">
+      <span class="section-index">04</span>
+      <h2>Contact</h2>
+      <span class="section-rule" aria-hidden="true"></span>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-intro">
+        <p class="section-lede">
+          Have a project in mind? Send the specs over — I'll reply within a
+          couple of days.
+        </p>
+        <ul class="contact-list">
+          <li><i class="fa-regular fa-envelope"></i> kirollosmagdy16@gmail.com</li>
+          <li><i class="fa-brands fa-github"></i><a href="https://github.com/KirollosMagdySalib">https://github.com/KirollosMagdySalib</li></a>
+          <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/kirolos-magdy-a53458259/">https://www.linkedin.com/in/kirolos-magdy-a53458259/</a> </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required minlength="2">
+          <span class="form-error" id="name-error" role="alert"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <span class="form-error" id="email-error" role="alert"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Project brief</label>
+          <textarea id="message" name="message" rows="5" placeholder="What are you building?" required minlength="10"></textarea>
+          <span class="form-error" id="message-error" role="alert"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+          <i class="fa-regular fa-paper-plane"></i> Send message
+        </button>
+
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Kirollos M. Salib Built with HTML, CSS &amp; JavaScript.</p>
+  <p class="footer-note">Sheet 04 of 04 — end of drawing set.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
