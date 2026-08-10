@@ -1,4 +1,4 @@
-# Hamza Raza — Full-Stack Developer Portfolio
+
 
 A fully responsive, single-page personal portfolio built for the **Live Pakistan
 Internship Program — Week 1 Task**.
